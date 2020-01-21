@@ -1,0 +1,21 @@
+html, body { 
+    margin: 0; 
+    overflow: hidden; 
+}
+
+#page-container { 
+    background-color: #000; 
+}
+.hidden { display: none; }
+#settings, #settings-notifier {
+    z-index: 255; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    color: rgb(255, 255, 255); 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.setting_input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Matrix</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="page-container">
+            <!-- @todo(Matt): Could really clean this up html snippet / modernize -->
+            <div id="settings-notifier">Press Escape to open settings</div>
+            <div id="settings" class="hidden">
+                <label>Font Size: </label>
+                <input id="font_size" class="setting_input" type="text" style="width: 30px">
+                <br>
+                <label>Rain Color: #</label>
+                <input id="rain_color" class="setting_input" type="text" style="width: 55px">
+                <br>
+                <label>Background Color: #</label>
+                <input id="background_color" class="setting_input" type="text" style="width: 55px">
+                <br>
+                <!-- <label>Rain Density: </label><br>
+                <input id="rain_density" type="range" min="0" max="1">
+                <br> -->
+                <label>Rain Speed: </label><br>
+                <input id="rain_speed" type="range" min="-150" max="-1">
+                <br>
+                <label>Character Set: </label><br>
+                <input id="character_set" class="setting_input" type="text">
+                <br>
+                <br>
+                <button id="update_settings" class="setting_input">Update</button>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
