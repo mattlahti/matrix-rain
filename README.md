@@ -1,5 +1,5 @@
-# matrix-rain
+# Customizable
 https://mattlahti.github.io/matrix-rain/
 
-Escape brings up settings.
+Escape brings up settings.<br>
 F1 will pause / play the rain.
