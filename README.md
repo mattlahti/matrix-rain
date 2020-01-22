@@ -1,4 +1,4 @@
-# Customizable
+# Customizable Matrix Rain
 https://mattlahti.github.io/matrix-rain/
 
 Escape brings up settings.<br>
